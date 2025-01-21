@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "OsTicket Telegram Link",
+    "version": "1.0",
+    "description": "Detects phone numbers and converts them into clickable links.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
